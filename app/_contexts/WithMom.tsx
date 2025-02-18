@@ -56,8 +56,8 @@ for (const chain of networks) {
 }
 
 export const config = getDefaultConfig({
-	appName: (process.env.WALLETCONNECT_PROJECT_NAME as string) || '',
-	projectId: process.env.WALLETCONNECT_PROJECT_ID as string,
+	appName: 'Fluidpay',
+	projectId: '77ffc060d0338aa0fc00e1065d7a374b',
 	chains: networks as any,
 	ssr: true,
 	syncConnectedChain: true,
